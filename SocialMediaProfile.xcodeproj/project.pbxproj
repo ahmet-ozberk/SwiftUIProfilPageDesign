@@ -7,13 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E354664C2802140100D31F55 /* StoryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E354664B2802140100D31F55 /* StoryModel.swift */; };
+		E354664E2802224600D31F55 /* TabBarModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E354664D2802224600D31F55 /* TabBarModel.swift */; };
 		E37B12872801FC0A00FD1108 /* SocialMediaProfileApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E37B12862801FC0A00FD1108 /* SocialMediaProfileApp.swift */; };
-		E37B12892801FC0A00FD1108 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E37B12882801FC0A00FD1108 /* ContentView.swift */; };
 		E37B128B2801FC0F00FD1108 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E37B128A2801FC0F00FD1108 /* Assets.xcassets */; };
 		E37B128E2801FC0F00FD1108 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E37B128D2801FC0F00FD1108 /* Preview Assets.xcassets */; };
 		E37B12982801FC0F00FD1108 /* SocialMediaProfileTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E37B12972801FC0F00FD1108 /* SocialMediaProfileTests.swift */; };
 		E37B12A22801FC0F00FD1108 /* SocialMediaProfileUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E37B12A12801FC0F00FD1108 /* SocialMediaProfileUITests.swift */; };
 		E37B12A42801FC0F00FD1108 /* SocialMediaProfileUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E37B12A32801FC0F00FD1108 /* SocialMediaProfileUITestsLaunchTests.swift */; };
+		E37B12B52801FC4300FD1108 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E37B12B42801FC4300FD1108 /* ProfileView.swift */; };
+		E37B12B82801FE6300FD1108 /* Toast in Frameworks */ = {isa = PBXBuildFile; productRef = E37B12B72801FE6300FD1108 /* Toast */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +37,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E354664B2802140100D31F55 /* StoryModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryModel.swift; sourceTree = "<group>"; };
+		E354664D2802224600D31F55 /* TabBarModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarModel.swift; sourceTree = "<group>"; };
 		E37B12832801FC0A00FD1108 /* SocialMediaProfile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SocialMediaProfile.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E37B12862801FC0A00FD1108 /* SocialMediaProfileApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialMediaProfileApp.swift; sourceTree = "<group>"; };
-		E37B12882801FC0A00FD1108 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E37B128A2801FC0F00FD1108 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E37B128D2801FC0F00FD1108 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		E37B12932801FC0F00FD1108 /* SocialMediaProfileTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SocialMediaProfileTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +48,7 @@
 		E37B129D2801FC0F00FD1108 /* SocialMediaProfileUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SocialMediaProfileUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E37B12A12801FC0F00FD1108 /* SocialMediaProfileUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialMediaProfileUITests.swift; sourceTree = "<group>"; };
 		E37B12A32801FC0F00FD1108 /* SocialMediaProfileUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialMediaProfileUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E37B12B42801FC4300FD1108 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E37B12B82801FE6300FD1108 /* Toast in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -94,8 +100,9 @@
 		E37B12852801FC0A00FD1108 /* SocialMediaProfile */ = {
 			isa = PBXGroup;
 			children = (
+				E37B12B12801FC2700FD1108 /* Model */,
+				E37B12B02801FC2200FD1108 /* View */,
 				E37B12862801FC0A00FD1108 /* SocialMediaProfileApp.swift */,
-				E37B12882801FC0A00FD1108 /* ContentView.swift */,
 				E37B128A2801FC0F00FD1108 /* Assets.xcassets */,
 				E37B128C2801FC0F00FD1108 /* Preview Content */,
 			);
@@ -127,6 +134,23 @@
 			path = SocialMediaProfileUITests;
 			sourceTree = "<group>";
 		};
+		E37B12B02801FC2200FD1108 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E37B12B42801FC4300FD1108 /* ProfileView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E37B12B12801FC2700FD1108 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E354664B2802140100D31F55 /* StoryModel.swift */,
+				E354664D2802224600D31F55 /* TabBarModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,6 +167,9 @@
 			dependencies = (
 			);
 			name = SocialMediaProfile;
+			packageProductDependencies = (
+				E37B12B72801FE6300FD1108 /* Toast */,
+			);
 			productName = SocialMediaProfile;
 			productReference = E37B12832801FC0A00FD1108 /* SocialMediaProfile.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +242,9 @@
 				Base,
 			);
 			mainGroup = E37B127A2801FC0A00FD1108;
+			packageReferences = (
+				E37B12B62801FE6300FD1108 /* XCRemoteSwiftPackageReference "Toast-Swift" */,
+			);
 			productRefGroup = E37B12842801FC0A00FD1108 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -257,8 +287,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E37B12892801FC0A00FD1108 /* ContentView.swift in Sources */,
+				E37B12B52801FC4300FD1108 /* ProfileView.swift in Sources */,
+				E354664E2802224600D31F55 /* TabBarModel.swift in Sources */,
 				E37B12872801FC0A00FD1108 /* SocialMediaProfileApp.swift in Sources */,
+				E354664C2802140100D31F55 /* StoryModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -583,6 +615,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		E37B12B62801FE6300FD1108 /* XCRemoteSwiftPackageReference "Toast-Swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/scalessec/Toast-Swift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		E37B12B72801FE6300FD1108 /* Toast */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E37B12B62801FE6300FD1108 /* XCRemoteSwiftPackageReference "Toast-Swift" */;
+			productName = Toast;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = E37B127B2801FC0A00FD1108 /* Project object */;
 }
